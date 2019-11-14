@@ -1,11 +1,15 @@
-body{
-}
 
 div{
-background: linear-gradient(#532795, #805438, transparent);
-background-image: url(hqdefault.jpg);
+background: linear-gradient(#532795, #805438, transparent 20%), url("hqdefault.jpg") no-repeat center;
 background-size: 100% 100%;
-background-repeat: no-repeat;
 height: 100vh;
 color: #ffffff;
+text-align:center;
+letter-spacing: 8px;
+font-family: 'Abril Fatface', cursive;
+line-height: 100px;
 }
+.uppercase{
+    text-transform: uppercase;
+}
+
